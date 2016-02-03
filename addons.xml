@@ -132,6 +132,20 @@
   </extension>
 </addon>
 
+<addon id="repository.SemperFI.addons" name="SemperFI Builds Repository" version="2.1.1" provider-name="Semperfidelis">
+    <extension point="xbmc.addon.repository" name="schism tv repository">
+        <info compressed="false">https://raw.github.com/SemperfidelisTV/SemperFI-/master/addons.xml</info>
+        <checksum>https://raw.github.com/SemperfidelisTV/SemperFI-/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/SemperfidelisTV/SemperFI-/raw/master/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>This is used FOR BUILDS ONLY</summary>
+        <description>BUILDS ONLY FROM SEMPERFIDELIS - THIS REPO CONTAINS UPDATES FOR SEMPERFIDELIS TV BUILDS THAT ARE ALLWAYS LOYAL. </description>
+        </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="script.areswizard" name="[COLOR black].[/COLOR] Ares Wizard" provider-name="AresTeam" version="0.0.26">
  <requires>
  <import addon="script.module.pyxbmct" version="1.1.4"/>
