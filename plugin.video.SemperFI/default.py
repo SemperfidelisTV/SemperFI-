@@ -13,10 +13,10 @@ import zipfile
 import ntpath
 
 
-addon_id = 'plugin.video.SemperFI'
+addon_id = 'plugin.video.SemperFI1.10'
 ADDON = xbmcaddon.Addon(id=addon_id)
 AddonID='plugin.video.SemperFI'
-AddonTitle="[COLOR lime]SemperFI[/COLOR] [COLOR white]Wizard[/COLOR]"
+AddonTitle="SemperFI Wizard
 dialog       =  xbmcgui.Dialog()
 net = Net()
 HOME         =  xbmc.translatePath('special://home/')
