@@ -13,7 +13,7 @@ import zipfile
 import ntpath
 
 
-addon_id = 'plugin.video.SemperFI1.10'
+addon_id = 'plugin.video.SemperFI1.1.0'
 ADDON = xbmcaddon.Addon(id=addon_id)
 AddonID='plugin.video.SemperFI'
 AddonTitle="SemperFI Wizard
